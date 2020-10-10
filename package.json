@@ -1,11 +1,24 @@
 {
   "name": "easy-https",
-  "version": "1.0.0",
+  "description": "Zero config, one step local https server with custom local domain.",
+  "keywords": [
+    "https",
+    "nodejs",
+    "mkcert",
+    "server",
+    "localhost"
+  ],
+  "version": "1.0.1",
   "scripts": {
     "test": "ts-node test/index.ts",
     "build": "rimraf dist && tsc"
   },
   "main": "./dist/index.js",
+  "homepage": "https://github.com/pie6k/easy-https/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pie6k/easy-https.git"
+  },
   "devDependencies": {
     "@types/node": "^14.11.8",
     "@types/open": "^6.2.1",
