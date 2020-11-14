@@ -14,7 +14,7 @@ Demo
 
 ![Demo](./demo.gif)
 
-## Useage with plain node:
+## Usage with plain node:
 
 ```ts
 import { createHttpsDevServer } from 'easy-https';
@@ -38,7 +38,7 @@ async function start() {
 start();
 ```
 
-## Useage with Express
+## Usage with Express
 
 ```ts
 import { createHttpsDevServer } from 'easy-https';
@@ -48,7 +48,7 @@ const app = express();
 createHttpsDevServer(app, config);
 ```
 
-## Useage with Next.js
+## Usage with Next.js
 
 ```ts
 import { createHttpsDevServer } from 'easy-https';
@@ -72,7 +72,7 @@ async function start() {
 start();
 ```
 
-## Useage API, avaliable options
+## API usage, avaliable options
 
 ```ts
 interface ServerConfig {
